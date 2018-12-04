@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="libColorText">#de000000</color>
+    <color name="libItemBg">#ffffff</color>
+</resources>
