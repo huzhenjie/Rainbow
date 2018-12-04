@@ -21,6 +21,7 @@
             android:id="@+id/item_left_img"
             android:layout_width="56dp"
             android:layout_height="56dp"
+            android:layout_marginRight="16dp"
             android:contentDescription="@null"
             android:src="@drawable/placeholder_square" />
 
@@ -28,8 +29,6 @@
             android:id="@+id/item_title"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="16dp"
-            android:layout_marginRight="16dp"
             android:layout_weight="1"
             android:ellipsize="end"
             android:maxLines="1"
@@ -42,6 +41,7 @@
             android:id="@+id/item_right_icon"
             android:layout_width="24dp"
             android:layout_height="24dp"
+            android:layout_marginLeft="16dp"
             android:contentDescription="@null"
             android:src="@drawable/ic_chevron_right_black_24dp" />
     </LinearLayout>
