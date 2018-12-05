@@ -3,12 +3,7 @@
 
     <LinearLayout
         android:id="@+id/item_container"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/libItemBg"
-        android:clickable="true"
-        android:focusable="true"
-        android:foreground="?attr/selectableItemBackground"
+        style="@style/LibItemContainer"
         android:gravity="center_vertical"
         android:minHeight="72dp"
         android:orientation="horizontal"
@@ -59,7 +54,6 @@
             android:layout_marginLeft="16dp"
             android:contentDescription="@null"
             android:src="@drawable/ic_chevron_right_black_24dp" />
-
 
     </LinearLayout>
 </layout>

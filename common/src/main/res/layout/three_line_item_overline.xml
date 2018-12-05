@@ -4,7 +4,7 @@
     <FrameLayout
         android:id="@+id/item_container"
         style="@style/LibItemContainer"
-        android:minHeight="64dp">
+        android:minHeight="88dp">
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -30,9 +30,19 @@
                 android:ellipsize="end"
                 android:maxLines="1"
                 android:singleLine="true"
-                android:text="Two-line item"
+                android:text="Three-Line item"
                 android:textColor="@color/libColorText"
                 android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/item_subtitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:text="Secondary line text lorem ipsum dolor sit amet"
+                android:textSize="14sp" />
 
         </LinearLayout>
 

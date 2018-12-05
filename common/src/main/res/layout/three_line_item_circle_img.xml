@@ -4,8 +4,7 @@
     <LinearLayout
         android:id="@+id/item_container"
         style="@style/LibItemContainer"
-        android:gravity="center_vertical"
-        android:minHeight="72dp"
+        android:minHeight="88dp"
         android:orientation="horizontal"
         android:padding="16dp">
 
@@ -15,7 +14,7 @@
             android:layout_height="40dp"
             android:layout_marginRight="16dp"
             android:contentDescription="@null"
-            android:src="@drawable/placeholder_square" />
+            android:src="@drawable/placeholder_circle" />
 
         <LinearLayout
             android:layout_width="0dp"
@@ -30,18 +29,17 @@
                 android:ellipsize="end"
                 android:maxLines="1"
                 android:singleLine="true"
-                android:text="Two-line item"
+                android:text="Three-line item"
                 android:textColor="@color/libColorText"
                 android:textSize="16sp" />
 
             <TextView
-                android:id="@+id/item_subtitle"
+                android:id="@+id/item_detail"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:ellipsize="end"
-                android:maxLines="1"
-                android:singleLine="true"
-                android:text="Secondary text"
+                android:maxLines="2"
+                android:text="Secondary line text lorem ipsum dolor sit amet, consecteur adipiscing elit."
                 android:textColor="@color/libColorSubText"
                 android:textSize="14sp" />
 

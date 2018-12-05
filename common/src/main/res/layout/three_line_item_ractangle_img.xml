@@ -4,24 +4,23 @@
     <FrameLayout
         android:id="@+id/item_container"
         style="@style/LibItemContainer"
-        android:minHeight="72dp"
+        android:minHeight="88dp"
         android:paddingLeft="0dp"
         android:paddingRight="0dp">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:gravity="center_vertical"
             android:orientation="horizontal"
-            android:paddingTop="8dp"
+            android:paddingTop="16dp"
             android:paddingRight="16dp"
-            android:paddingBottom="8dp">
+            android:paddingBottom="16dp">
 
             <ImageView
                 android:id="@+id/item_left_img"
                 android:layout_width="100dp"
                 android:layout_height="56dp"
-                android:layout_marginRight="16dp"
+                android:layout_marginRight="20dp"
                 android:contentDescription="@null"
                 android:src="@drawable/placeholder_ractangle" />
 
@@ -38,18 +37,17 @@
                     android:ellipsize="end"
                     android:maxLines="1"
                     android:singleLine="true"
-                    android:text="Two-line item"
+                    android:text="Three-line item"
                     android:textColor="@color/libColorText"
                     android:textSize="16sp" />
 
                 <TextView
-                    android:id="@+id/item_subtitle"
+                    android:id="@+id/item_detail"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:ellipsize="end"
-                    android:maxLines="1"
-                    android:singleLine="true"
-                    android:text="Secondary text"
+                    android:maxLines="2"
+                    android:text="Secondary line text lorem ipsum dolor sit amet, consecteur adipiscing elit."
                     android:textColor="@color/libColorSubText"
                     android:textSize="14sp" />
 
@@ -69,6 +67,6 @@
             android:id="@+id/item_divider"
             style="@style/LibItemDivider"
             android:layout_gravity="bottom"
-            android:layout_marginLeft="116dp" />
+            android:layout_marginLeft="120dp" />
     </FrameLayout>
 </layout>

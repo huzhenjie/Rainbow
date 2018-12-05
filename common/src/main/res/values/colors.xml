@@ -2,5 +2,6 @@
 <resources>
     <color name="libColorText">#de000000</color>
     <color name="libColorSubText">#99000000</color>
-    <color name="libItemBg">#ffffff</color>
+    <color name="libItemColorBg">#ffffff</color>
+    <color name="libItemColorDivider">#1e000000</color>
 </resources>
